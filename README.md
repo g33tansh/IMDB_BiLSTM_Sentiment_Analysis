@@ -20,10 +20,10 @@ This project implements a **BiLSTM-based sentiment analysis model** to classify 
 ## **Dataset**  
 - **Source:** IMDB movie reviews dataset (50K reviews)  
 - **Split:**  
-  - Training: **30,000 reviews**  
-  - Validation: **10,000 reviews**  
-  - Testing: **10,000 reviews**  
+  - Training: **25,000 reviews**  
+  - Testing: **25,000 reviews**  
 - **Format:** Each review is labeled as **positive (1)** or **negative (0)**.  
+
 
 ## **Model Architecture**  
 The model follows a **BiLSTM-based architecture** for sentiment classification:  
