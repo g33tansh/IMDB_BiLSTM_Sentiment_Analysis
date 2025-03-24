@@ -1,4 +1,4 @@
-**IMDB Sentiment Analysis using BiLSTM**  
+## **IMDB Sentiment Analysis using BiLSTM**  
 A deep learning-based sentiment analysis system for classifying IMDB movie reviews as **positive or negative** using a **BiLSTM (Bidirectional LSTM) model** with trainable word embeddings.  The project includes efficient data preprocessing (tokenization, padding, tf.data pipeline) and evaluates performance using accuracy, precision, recall, F1-score, and confusion matrix.
 
 
