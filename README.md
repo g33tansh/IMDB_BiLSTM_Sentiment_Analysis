@@ -18,11 +18,12 @@ A deep learning-based sentiment analysis system for classifying IMDB movie revie
 This project implements a **BiLSTM-based sentiment analysis model** to classify IMDB movie reviews. The dataset is preprocessed using **tokenization, padding, and a `tf.data` pipeline** to optimize training. The model is evaluated using **accuracy, precision, recall, F1-score, a confusion matrix, and TensorBoard for training visualization**.
 
 ## **Dataset**  
-- **Source:** IMDB movie reviews dataset (50K reviews)  
+- **Source:** [IMDB dataset (50K Movie Reviews)](https://www.kaggle.com/datasets/lakshmi25npathi/imdb-dataset-of-50k-movie-reviews)  
 - **Split:**  
   - Training: **25,000 reviews**  
   - Testing: **25,000 reviews**  
 - **Format:** Each review is labeled as **positive (1)** or **negative (0)**.  
+
 
 ## **Model Architecture**  
 The model follows a **BiLSTM-based architecture** for sentiment classification:  
