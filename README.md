@@ -84,7 +84,8 @@ pip install tensorflow numpy pandas matplotlib seaborn scikit-learn nltk wordclo
 2. **Train Model**: Run the BiLSTM model on preprocessed data.  
 3. **Monitor Training**: Use TensorBoard for real-time visualization.  
 4. **Evaluate Model**: Compute accuracy, precision, recall, and F1-score.  
-5. **Visualize Results**: Generate confusion matrix and word cloud.  
+5. **Visualize Results**: Generate confusion matrix and word cloud.
+6. **Predicts over a subset of test data to showcase effectiveness. 
 
 ## **Results**  
 - **Training Loss & Accuracy Plots** via TensorBoard.  
@@ -94,7 +95,8 @@ pip install tensorflow numpy pandas matplotlib seaborn scikit-learn nltk wordclo
 ## **Future Improvements**  
 - Implement **pretrained embeddings (GloVe, Word2Vec, or BERT)**.  
 - Explore **CNN+BiLSTM hybrid architectures** for better accuracy.  
-- Optimize **hyperparameters** using grid search or Bayesian optimization.  
+- Optimize **hyperparameters** using grid search or Bayesian optimization.
+- Train the model on diverse sentiment datasets for consistency in sentiment analysis tasks. 
 
 ## **License**  
 This project is released under the **MIT License**.
