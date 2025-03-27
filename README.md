@@ -71,6 +71,7 @@ tensorboard --logdir logs/fit --port 6006
 ```
 Then open your browser and visit:  
 [http://localhost:6006](http://localhost:6006)  
+or Tensorboard will be opened in the notebook itself. 
 
 ## **Installation**  
 ### **Requirements**  
